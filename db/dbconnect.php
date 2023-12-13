@@ -10,7 +10,7 @@
 
 	/* Connect Setting */
 	$conn = mysqli_init();
-	mysqli_real_connect($conn, $dbhost, $dbusername, $dbpassword, $dbname, $dbport)
+	mysqli_real_connect($conn, $dbhost, $dbusername, $dbpassword, $dbname, $dbport);
 
 
 	/* Check connection */
